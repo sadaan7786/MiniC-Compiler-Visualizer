@@ -1,0 +1,8 @@
+; declare int a
+; declare int b
+t1 = 6  ; [folded]
+t2 = 11  ; [folded]
+a = 11
+t3 = a + 1
+b = t3
+print b

@@ -1,0 +1,19 @@
+PROGRAM
+  STMTS
+    STMTS
+      STMTS
+        STMTS
+          DECL_INT
+            ID [a]
+          DECL_INT
+            ID [b]
+        ASSIGN
+          ID [a]
+          CONST
+      ASSIGN
+        ID [b]
+        ADD
+          ID [a]
+          INT_LIT
+    PRINT
+      ID [b]

@@ -1,0 +1,3 @@
+NAME	TYPE	SCOPE	LINE	INIT
+a	int	global	1	no
+b	int	global	2	no

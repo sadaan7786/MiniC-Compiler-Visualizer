@@ -1,0 +1,15 @@
+; ── Optimised TAC ──────────────────────
+; Passes: constant folding (inline) +
+;         dead code elimination
+; ────────────────────────────────────────
+
+; declare int a
+; declare int b
+; [DEAD] t1 = 6  ; [folded]
+; [DEAD] t2 = 11  ; [folded]
+a = 11
+t3 = a + 1
+b = t3
+print b
+
+; Dead instructions eliminated: 2
